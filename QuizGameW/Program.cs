@@ -6,15 +6,28 @@ namespace QuizGame
 {
     class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
+            string filePath;
+
+            if (args.Length < 1)
+            {
+                Console.WriteLine("Please provide the path to the JSON file:");
+                filePath = Console.ReadLine();
+            }
+            else
+            {
+                filePath = args[0];
+            }
+
             // Read the JSON file
-            string json = File.ReadAllText("Quizs.json");
+            string json = File.ReadAllText(filePath);
             QuizDataWrapper quizDataWrapper = JsonSerializer.Deserialize<QuizDataWrapper>(json);
 
             // Run the quiz
             RunQuiz(quizDataWrapper.questions);
         }
+
         static void RunQuiz(Question[] questions)
         {
             if (questions == null)
@@ -53,6 +66,7 @@ namespace QuizGame
     {
         public Question[] questions { get; set; }
     }
+
     public class Question
     {
         public string question { get; set; }
