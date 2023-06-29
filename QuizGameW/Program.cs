@@ -48,7 +48,7 @@ namespace QuizGame
                 Console.Write("Enter your answer: ");
                 string userAnswer = Console.ReadLine();
 
-                if (userAnswer == question.answer)
+                if (Array.Exists(question.answers, answer => answer.Equals(userAnswer, StringComparison.OrdinalIgnoreCase)))
                 {
                     Console.WriteLine("Correct!");
                 }
@@ -71,6 +71,6 @@ namespace QuizGame
     {
         public string question { get; set; }
         public string[] options { get; set; }
-        public string answer { get; set; }
+        public string[] answers { get; set; }
     }
 }

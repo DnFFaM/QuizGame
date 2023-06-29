@@ -2,53 +2,53 @@
   "questions": [
     {
       "question": "What is the capital of France?",
-      "options": [ "London", "Paris", "Berlin", "Madrid" ],
-      "answer": "Paris"
+      "options": [ "London", "Paris", "Berlin" ],
+      "answers": [ "Paris", "The capital of France is Paris.", "paris", "PARIS" ]
     },
     {
       "question": "Who painted the Mona Lisa?",
       "options": [ "Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo" ],
-      "answer": "Leonardo da Vinci"
+      "answers": [ "Leonardo da Vinci", "leonardo da vinci", "Leonardo da vinci", "leo", "Leo" ]
     },
     {
       "question": "Which planet is known as the Red Planet?",
       "options": [ "Mars", "Jupiter", "Saturn", "Venus" ],
-      "answer": "Mars"
+      "answers": [ "Mars", "mars", "MARS" ]
     },
     {
       "question": "What is the largest organ in the human body?",
       "options": [ "Liver", "Heart", "Skin", "Lungs" ],
-      "answer": "Skin"
+      "answers": [ "Skin", "skin", "SKIN" ]
     },
     {
       "question": "Who wrote the play 'Romeo and Juliet'?",
       "options": [ "William Shakespeare", "Charles Dickens", "Mark Twain", "Jane Austen" ],
-      "answer": "William Shakespeare"
+      "answers": [ "William Shakespeare", "William shakespeare", "william Shakespeare", "william shakespeare" ]
     },
     {
       "question": "What is the chemical symbol for gold?",
       "options": [ "Au", "Ag", "Cu", "Fe" ],
-      "answer": "Au"
+      "answers": [ "Au", "AU", "au" ]
     },
     {
       "question": "Who invented the telephone?",
       "options": [ "Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Albert Einstein" ],
-      "answer": "Alexander Graham Bell"
+      "answers": [ "Alexander Graham Bell", "alexander graham bell", "ALEXANDER GRAHAM BELL"]
     },
     {
       "question": "Which country is home to the kangaroo?",
       "options": [ "Australia", "Canada", "Brazil", "India" ],
-      "answer": "Australia"
+      "answers": [ "Australia", "australia", "AUSTRALIA" ]
     },
     {
       "question": "What is the tallest mountain in the world?",
       "options": [ "Mount Everest", "K2", "Makalu", "Kangchenjunga" ],
-      "answer": "Mount Everest"
+      "answers": [ "Mount Everest", "mount everest", "MOUNT EVEREST" ]
     },
     {
       "question": "Who painted the ceiling of the Sistine Chapel?",
       "options": [ "Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello" ],
-      "answer": "Michelangelo"
+      "answers": [ "Michelangelo", "michelangelo", "MICHELANGELO" ]
     }
   ]
 }
